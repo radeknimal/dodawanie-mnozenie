@@ -13,7 +13,7 @@ int odej(int a, int b){
 	return a - b; }
 
 int dziel(int a, int b){
-	printf("Wynik dzielenia: %i\n", a / b);
+	printf("Wynik dzielenia: %i i reszta %i\n", a / b, a % b);
 	return a / b;}
 
 int main(void)
